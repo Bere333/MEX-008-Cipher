@@ -1,0 +1,133 @@
+.primero{
+  background-position: center;
+}
+
+#boton1{
+  display: block;
+  margin: 1em 4em 4em 4em;
+  border-style: double;
+  border-color: teal;
+}
+#boton2{
+  display: block;
+  margin: 1em 4em 4em 4em;
+}
+
+#boton3{
+  display: block;
+  margin: 4em 4em 4em 4em;
+}
+
+.seguro{
+  display: block;
+}
+
+.foco{
+  display: block;
+}
+
+.imagen{
+  background-image: url("https://wallpaper-gallery.net/images/black-blue-background/black-blue-background-2.jpg");
+
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.imagen2{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/518/487/large_2x/colorful-abstract-pink-and-violet-wave-background-banner-and-wallpaper-vector.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.subtitulo{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.ayudaBoson{
+  background-position: center;
+}
+
+.institulo{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.ayuda{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.entitulo{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.instrucciones{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+#boton5{
+  display: block;
+  margin: 1em 1em 1em 1em;
+}
+
+#boton6{
+  display: block;
+  margin: 4em 4em 4em 4em;
+}
+
+.instrucciones{
+  margin: 1em 1em 1em 1em;
+}
+
+.paraEncriptar{
+  margin: 1em 1em 1em 1em;
+}
+
+.ciencia2{
+  display: block;
+  margin: 1em 1em 1em 1em;
+
+}
+
+.offset{
+  display: block;
+  margin: 1em 1em 1em 1em;
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.paraOffset{
+  margin: 1em 1em 1em 1em;
+
+}

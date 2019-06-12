@@ -1,15 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+<head>
+  <title>Bosón</title>
+  <link rel = "stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Arya|IM+Fell+English+SC|Orienta|Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="bienvenidaBoson">
+  <div class="imagen">
+  <center><div class="primero">
+  <h1 class="titulo">Bienvenid@ a Boson</h1>
+  <h3 class="subtitulo">¿Tienes un descubrimiento?</h3>
+  <img src="foco4.png" class="foco" width="50" height="70">
+  <button id="boton1">¡Eureka!</button>
+  <img src="seguro1.png" class="seguro" width="70" height="70">
+  <button id="boton2">Tengo un descubrimiento encriptado</button>
+<button id="boton3">Ayuda</button>
+
+</div></center>
+</div>
+</section>
+<section id="ayudaBoson" style="display: none">
+  <div class="imagen2">
+    <center><div class="ayudaBoson">
+      <h1 class="institulo">Ayuda sobre funcionamiento de Boson</h1>
+      <p class="ayuda">Boson es una aplicación web que encripta y desencripta descubrimientos científicos. Es necesario proporcionar un offset para ambas opciones</p>
+      <button id="boton4">Regresar</button>
+    </div></center>
+  </div>
+</section>
+<section id="encriptar" style="display: none">
+  <div class="imagen2">
+    <center><div class="encriptar1">
+      <h1 class="entitulo">Encripta tu descubrimiento y compartelo con tus colegas</h1>
+      <button id="boton5">Instrucciones</button>
+      <label class="instrucciones">Introduce tu descubrimiento:</label>
+      <input class="paraEncriptar" placeholder="Introduzca el descubrimiento">
+      <label class="offset">Introduce el offset:</label>
+      <input class="paraOffset" placeholder="Introduzca el Offset">
+      <button id="boton6">Encriptar</button>
+      <img src="ciencia2.png" class="ciencia2" width="180" height="180">
+    </div></center>
+  </div>
+</section>
+<section id="instruccionesE" style="display:none">
+  <div class="imagen2">
+    <center><div class="instruccionesE">
+      <h1 class="iTitulo">Instrucciones para encriptar descubrimiento</h1>
+      <ol class="listaE">
+        <li value="1">Escribir descubrimiento a encriptar</li>
+        <li value="2">Proporcionar un número de desplazamientos (Offset)</li>
+        <li value="3">Una vez introducido el mensaje, presionar el boton encriptar<li>
+        <li value="4">Copiar mensaje encriptado</li>
+        </ol>
+        <ul class="nota1">
+          <li type="circle">Nota: El mensaje no debe incluir espacios, signos de puntuacion y demas caracteres</li>
+        </ul>
+        <button id="boton7">Regresar</button>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+  </div>
+</section>
+<script type="text/javascript" src="app.js">
+</script>
+</body>
 </html>
