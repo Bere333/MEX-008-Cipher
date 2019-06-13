@@ -45,6 +45,9 @@ document.getElementById("boton4").addEventListener("click", () => {
 })
 
 document.getElementById("boton5").addEventListener("click", () => {
-console.log("boton5");
-let ocultarEncriptar = documen.getElementById('id')
+  console.log("boton5");
+  let ocultarEncriptar = document.getElementById("encriptar");
+  encriptar.style.display = "none";
+  let mostrarInstruccionesE =document.getElementById("instruccionesE");
+  instruccionesE.style.display = "block";
 })
