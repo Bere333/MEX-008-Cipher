@@ -1,4 +1,44 @@
-# Cifrado César
+#Nombre del producto: Boson
+
+#Descripción del proyecto:
+Boson es una aplicación web diseñada para investigadores científicos que generan decubrimientos y nececitan manetener esa información de forma confidencial; La manera en que Boson hace esta tarea es encriptando los descubrimientos, también permite desencriptar descubrimientos que se comparten entre colegas.
+
+#Elegibilidad de los usuarios:
+Se identifico la necesidad de esta aplicación ya que, de forma personal, la creadora de esta web ha experimentado los problemas que surgen de mantener información científica valiosa en confidencialidad, entre los mismos integrantes de un equipo de investigación y demás comunidad; Con este problema identificado, se realizó una pequeña encuesta en Twitter donde hay una gran comunidad científica y se obtuvo lo siguiente:
+
+
+
+Al aire libren
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
