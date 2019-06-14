@@ -10,7 +10,7 @@ Se identifico la necesidad de esta aplicación, ya que, la creadora de esta web 
 
 ![Encuesta Twitter1](https://lh3.googleusercontent.com/-BZpxef-nGKkgIkZt90YgvlShBxAMYIU4_GjKGRSgiw_Myf8Qt_gd2bFdDakBDcfb7Wj0iIBoA24AdnVaVBYq3Th7iCHIMNc8IhkJ7EjQShUmfYanA4CpwrsNQRp7uy-_rUVk3i5LgULfTkWWo5velhxU1g3KrSpgrKDrChOnkp_0MZJgrvx0DZBDVSktjNXvqHoID5-4SYpcWs2ohaNI2gCzHXbFMcuCAyFnbiyf84K9pHn1nGrypjqEb7jIUytUSYrO84Ob37N6AYIbuffb4-QbZvWh1xq1g7PNSqPt27wy_QiHIBmJUVS1ICCk9ttMvanhG584CDkymcFMFXexGpegz6THZBefwFEuPHjj2V1GWw1UUa-TaDi7t5Ia-YPkUQB1_16VGN95KfW9QnugRl02fKcu81jNAal57yhKvwR8FAvGDdVERic-Oz_3VRfhFCNjRqMuBPqHlEVkqOyaHrdKWqgz5NdJH-GRE4VYbVAfgy6EqasxKiHEgmuGIYnfd6S7VV0BqwUaoxyCKW-RLhAYcxEmcsZLXcmLFr7R2DRvHNvOf6uaII6C6Z_uGma77_Un214U3itvxWFpuriujWOJfM1MfdnPKQQsoodN7Gkz4yb86mWhF94Lm-aZQ2pLZTCnCa3psbxo8tM6G_McJvgf6YCXNs=w480-h567-no)
 
-No se obtuvieron muchos votos, pero podemos ver que de los cuatro investigadores, 3 de ellos probarían la aplicación; Y a un investigador le parece útil la aplicación web, por lo que podía considerarse necesaria en este tipo de usuarios.
+No se obtuvieron muchos votos, pero podemos ver que de los cuatro investigadores, 3 de ellos probarían la aplicación; Y a un investigador le parece útil la aplicación web, por lo que podía considerarse necesaria en este tipo de usuarios. Tomando en cuenta lo anterior se procedio a la realización del prototipado utilizando la aplicación Marvel
 
 
 
@@ -27,23 +27,7 @@ No se obtuvieron muchos votos, pero podemos ver que de los cuatro investigadores
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+----------------------------------------------------------------------------------------------------------------------------
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
