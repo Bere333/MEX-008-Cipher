@@ -1,14 +1,16 @@
-#Nombre del producto: Boson
+## Nombre del producto: Boson
 
-#Descripción del proyecto:
+## Descripción del proyecto:
 Boson es una aplicación web diseñada para investigadores científicos que generan decubrimientos y nececitan manetener esa información de forma confidencial; La manera en que Boson hace esta tarea es encriptando los descubrimientos, también permite desencriptar descubrimientos que se comparten entre colegas.
 
-#Elegibilidad de los usuarios:
+## Elegibilidad de los usuarios:
 Se identifico la necesidad de esta aplicación ya que, de forma personal, la creadora de esta web ha experimentado los problemas que surgen de mantener información científica valiosa en confidencialidad, entre los mismos integrantes de un equipo de investigación y demás comunidad; Con este problema identificado, se realizó una pequeña encuesta en Twitter donde hay una gran comunidad científica y se obtuvo lo siguiente:
+![Encuestas_Twitter](https://photos.app.goo.gl/ypbBXH3ZWb7h42pL6)
+![Encuesta Twitter1](https://photos.app.goo.gl/P8mjQ1va5XHtWAsk6)
 
 
 
-Al aire libren
+
 
 
 
