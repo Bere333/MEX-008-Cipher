@@ -74,6 +74,7 @@ let offset1= document.getElementById("offset").value;//valor de offset o número
 console.log(offset1);
 let lengthMessage = message.length;//longitud de mensaje introducido
 console.log(lengthMessage);
+let letters = " ";//caja vacía para guardar los strings que se generen en el bucle for
 let indexM = 0;
 for (let i = 0; i < lengthMessage; i = i + 1){
   const charAtMessage = message.charAt(indexM);
@@ -86,7 +87,9 @@ for (let i = 0; i < lengthMessage; i = i + 1){
   console.log(asciiLetter);
   const letterCipher = String.fromCharCode(asciiLetter);//Dado el numero ASCII devuelve la letra correspondiente en ASCII
   console.log(letterCipher);
-  document.getElementById("cipher1").value = letterCipher;//mostrar valor en el input con id=cipher1
+  letters = letters + letterCipher;
+  console.log(letters);
+  document.getElementById("cipher1").value = letters;//mostrar valor en el input con id=cipher1
   console.log("hola");
   indexM = indexM + 1;
   console.log(indexM);
