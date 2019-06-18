@@ -51,3 +51,45 @@ document.getElementById("boton5").addEventListener("click", () => {
   let mostrarInstruccionesE =document.getElementById("instruccionesE");
   instruccionesE.style.display = "block";
 })
+
+document.getElementById("boton7").addEventListener("click", () => {
+  console.log("boton7");
+  let ocultarDesencriptar = document.getElementById("instruccionesE");
+  instruccionesE.style.display = "none";
+  let regresarDesencriptar = document.getElementById("encriptar")
+  encriptar.style.display = "block";
+})
+
+document.getElementById("boton8").addEventListener("click", () => {
+  console.log("boton8");
+  let ocultarEncriptar1 = document
+})
+
+document.getElementById("boton6").addEventListener("click", () => {
+console.log('boton6');
+
+let message = document.getElementById("paraEncriptar").value;//contenido del mensaje introducido
+console.log(message);
+let offset1= document.getElementById("offset").value;//valor de offset o número fijo en la fórmula del código ASCII
+console.log(offset1);
+let lengthMessage = message.length;//longitud de mensaje introducido
+console.log(lengthMessage);
+let indexM = 0;
+for (let i = 0; i < lengthMessage; i = i + 1){
+  const charAtMessage = message.charAt(indexM);
+  console.log(charAtMessage);
+  let indexAscii = message.indexOf(charAtMessage);
+  console.log(indexAscii);
+  let asciiMessage = message.charCodeAt(indexAscii);//número ASCII del primer carácter del mensaje introducido. Aumenta en uno con cada ciclo for terminado
+  console.log(asciiMessage);
+  const asciiLetter = (asciiMessage - 65 + offset1) % 26 + 65;//Obtiene el número de ASCII del indice dado
+  console.log(asciiLetter);
+  const letterCipher = String.fromCharCode(asciiLetter);//Dado el numero ASCII devuelve la letra correspondiente en ASCII
+  console.log(letterCipher);
+  document.getElementById("cipher1").value = letterCipher;//mostrar valor en el input con id=cipher1
+  console.log("hola");
+  indexM = indexM + 1;
+  console.log(indexM);
+}
+
+  });

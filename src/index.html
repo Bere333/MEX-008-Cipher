@@ -21,13 +21,13 @@
 </div>
 </section>
 <section id="ayudaBoson" style="display: none">
-  <div class="imagen2">
+<div class="imagen2">
     <center><div class="ayudaBoson">
       <h1 class="institulo">Ayuda sobre funcionamiento de Boson</h1>
       <p class="ayuda">Boson es una aplicación web que encripta y desencripta descubrimientos científicos. Es necesario proporcionar un offset para ambas opciones</p>
       <button id="boton4">Regresar</button>
     </div></center>
-  </div>
+</div>
 </section>
 <section id="encriptar" style="display: none">
   <div class="imagen2">
@@ -35,11 +35,13 @@
       <h1 class="entitulo">Encripta tu descubrimiento y compartelo con tus colegas</h1>
       <button id="boton5">Instrucciones</button>
       <label class="instrucciones">Introduce tu descubrimiento:</label>
-      <input class="paraEncriptar" placeholder="Introduzca el descubrimiento">
+      <input id="paraEncriptar" placeholder="Introduzca el descubrimiento">
       <label class="offset">Introduce el offset:</label>
-      <input class="paraOffset" placeholder="Introduzca el Offset">
+      <input id="offset" class="paraOffset" placeholder="Introduzca el Offset">
       <button id="boton6">Encriptar</button>
-      <img src="ciencia2.png" class="ciencia2" width="180" height="180">
+      <input id="cipher1" class="cipher2" placeholder="Descubrimiento encriptado">
+      <img src="atomo1.png" class="ciencia2" width="100" height="100">
+      <button id="boton8">Regresa a Inicio</button>
     </div></center>
   </div>
 </section>
@@ -57,10 +59,13 @@
           <li class="nota1" type="circle">Nota: El mensaje no debe incluir espacios, signos de puntuacion y demas caracteres</li>
         </ul>
         <center><button id="boton7">Regresar</button></center>
+        <section id="regresarAinicioE"
     </div>
   </div>
 </section>
 <script type="text/javascript" src="index.js">
+let cipherFunction = window.cipher;
+console.log(cipherFunction);
 </script>
 </body>
 </html>
