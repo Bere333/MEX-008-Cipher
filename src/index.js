@@ -74,7 +74,7 @@ let offset1= document.getElementById("offset").value; //3
 
 //window.cipher.encode(offset,message) //krod
 
-let encode1 = window.cipher.encode(offset1,message);//llama al objeto encode
+let encode1 = window.cipher.encode(offset1, message);//llama al objeto encode
 document.getElementById("cipher1").value = encode1;//utilizo el objeto anterior para mostrar el codigo en el input
 
 
