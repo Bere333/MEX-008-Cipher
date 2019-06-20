@@ -79,8 +79,25 @@ document.getElementById("botonInsD").addEventListener("click", () => {
   mostrarInstruccionesD.style.display = "block";
 });
 
+document.getElementById("botonRD").addEventListener("click", () => {
+  let mostrarInstruccionesD = document.getElementById("instruccionesD");
+  mostrarInstruccionesD.style.display = "none";
+  let mostrarDesencriptar = document.getElementById("desencriptar");
+  mostrarDesencriptar.style.display ="block";
+});
+document.getElementById("boton8").addEventListener("click", () => {
+  let regresarDesencriptar = document.getElementById("encriptar");
+  regresarDesencriptar.style.display = "none";
+  let bienvenidaBoson = document.getElementById("bienvenidaBoson");
+  bienvenidaBoson.style.display = "block";
+});
 
-
+document.getElementById("botonRi2").addEventListener("click", () => {
+  let mostrarDesencriptar = document.getElementById("desencriptar");
+  mostrarDesencriptar.style.display ="none";
+  let bienvenidaBoson = document.getElementById("bienvenidaBoson");
+  bienvenidaBoson.style.display = "block";
+});
 
 
 

@@ -1,5 +1,19 @@
-.primero{
-  background-position: center;
+body {
+height: 100%;
+margin: 0;
+position: absolute;
+width: 100%;
+display: table;
+background-image: url("C1.jpeg");
+
+}
+
+#botonRi2{
+  margin: 1em 4em 4em 4em;
+}
+
+#boton8{
+  margin: 1em 4em 4em 4em;
 }
 
 #boton1{
@@ -24,21 +38,12 @@
 
 .foco{
   display: block;
+
+
 }
 
-.imagen{
-  background-image: url("C1.jpeg");
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
 
-.imagen2{
-  background-image: url("C1.jpeg");
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
+
 
 .titulo{
   background-color: black;
