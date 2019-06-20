@@ -23,7 +23,7 @@ document.getElementById("boton2").addEventListener("click", () => { //funcion fl
   ayuda3.style.display = "none";
   let encriptar2 = document.getElementById("encriptar");
   encriptar2.style.display = "none";
-})
+});
 
 document.getElementById("boton3").addEventListener("click", () => {
   //console.log("boton3");
@@ -34,7 +34,7 @@ document.getElementById("boton3").addEventListener("click", () => {
   let ayuda = document.getElementById("ayudaBoson");/*Se creo una variable para la seccion de ayuda*/
   ayuda.style.display = "block";/*La variable ayuda se hace desaparecer
    con block al hacer click en el boton3*/
-})
+});
 
 document.getElementById("boton4").addEventListener("click", () => {
   //console.log("boton4");
@@ -43,7 +43,7 @@ document.getElementById("boton4").addEventListener("click", () => {
   let regresar = document.getElementById("bienvenidaBoson");
   regresar.style.display = "block";
 
-})
+});
 
 document.getElementById("boton5").addEventListener("click", () => {
   //console.log("boton5");
@@ -51,7 +51,7 @@ document.getElementById("boton5").addEventListener("click", () => {
   ocultarEncriptar.style.display = "none";
   let mostrarInstruccionesE =document.getElementById("instruccionesE");
   mostrarInstruccionesE.style.display = "block";
-})
+});
 
 document.getElementById("boton7").addEventListener("click", () => {
   //console.log("boton7");
@@ -59,7 +59,7 @@ document.getElementById("boton7").addEventListener("click", () => {
   ocultarDesencriptar.style.display = "none";
   let regresarDesencriptar = document.getElementById("encriptar");
   regresarDesencriptar.style.display = "block";
-})
+});
 
 
 document.getElementById("boton2").addEventListener("click", () => {
@@ -70,7 +70,18 @@ document.getElementById("boton2").addEventListener("click", () => {
   regresarDesencriptar.style.display = "none";
   let mostrarDesencriptar = document.getElementById("desencriptar");
   mostrarDesencriptar.style.display ="block";
-})
+});
+
+document.getElementById("botonInsD").addEventListener("click", () => {
+  let mostrarDesencriptar = document.getElementById("desencriptar");
+  mostrarDesencriptar.style.display ="none";
+  let mostrarInstruccionesD = document.getElementById("instruccionesD");
+  mostrarInstruccionesD.style.display = "block";
+});
+
+
+
+
 
 
 document.getElementById("boton6").addEventListener("click", () => {//se manda llamar el boton

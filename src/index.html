@@ -5,7 +5,7 @@
   <link rel = "stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Arya|IM+Fell+English+SC|Orienta|Secular+One&display=swap" rel="stylesheet">
 </head>
-<body>
+<body background-image = "C1.jpeg">
   <section id="bienvenidaBoson">
   <div class="imagen">
   <center><div class="primero">
@@ -49,7 +49,7 @@
   <div class="imagen2">
   <center><div class="desencriptar1">
     <h1 class="destitulo">Desencripta un descubrimiento compartido</h1>
-    <button id="botoIn">Instrucciones</button>
+    <button id="botonInsD">Instrucciones</button>
     <label class="instruccionesDes">Introduce tu descubrimiento encriptado:</label>
     <textarea id="paraDesencriptar" placeholder="Introduzca el descubrimiento encriptado"></textarea>
     <label class="offsetDes">Introduce el offset:</label>
@@ -71,10 +71,23 @@
         <li value="4">Copiar mensaje encriptado</li>
         </ol>
         <ul class="nota1">
-          <li class="nota1" type="circle">Nota: El mensaje no debe incluir espacios, signos de puntuacion y demas caracteres</li>
+          <li class="nota1" type="circle">Nota: El mensaje no debe incluir espacios, letras minúsculas, signos de puntuacion y demas caracteres</li>
         </ul>
         <center><button id="boton7">Regresar</button></center>
       </section>
+<section id="instruccionesD" style="display:none" class="imagen2">
+        <center><h1 class="iDTitulo">Instrucciones para encriptar descubrimiento</h1></center>
+        <ol class="listaD">
+          <li value="1">Escribir descubrimiento a desencriptar</li>
+          <li value="2">Proporcionar un número de desplazamientos (Offset)</li>
+          <li value="3">Una vez introducido el mensaje, presionar el boton desencriptar</li>
+          <li value="4">Copiar mensaje desencriptado</li>
+          </ol>
+          <ul class="nota2">
+            <li class="nota1" type="circle">Nota: El mensaje no debe incluir espacios, letras minúsculas, signos de puntuacion y demas caracteres</li>
+          </ul>
+          <center><button id="botonRD">Regresar</button></center>
+        </section>
       <script src="index.js"></script>
 <script src="cipher.js"></script>
 
