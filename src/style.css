@@ -158,7 +158,67 @@
  #paraEncriptar{
    display: block;
    margin: 1em 4em 4em 4em;
-   width: ;
-   height: ;
+   width: 50%;
+   height: 50%;
 
  }
+
+.instruccionesDes{
+  display: block;
+  margin: 1em 1em 1em 1em;
+}
+
+#paraDesencriptar{
+  display: block;
+  margin: 1em 4em 4em 4em;
+  width: 50%;
+  height: 50%;
+}
+
+.destitulo {
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.instruccionesDes{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.offsetDes{
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'IM Fell English SC', serif;
+  font-family: 'Orienta', sans-serif;
+  font-family: 'Arya', sans-serif;
+}
+
+.paraOffsetDes{
+  display: block;
+  margin: 1em 4em 4em 4em;
+}
+
+#botonDesencriptar{
+  display: block;
+  margin: 1em 1em 1em 1em;
+}
+
+#cipher3{
+  display: block;
+  margin: 1em 4em 4em 4em;
+  width: 50%;
+  height: 50%;
+}
+
+#cipher1{
+  display: block;
+  margin: 1em 1em 1em 1em;
+  width: 50%;
+  height: 50%;
+}
