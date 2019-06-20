@@ -4,7 +4,7 @@ margin: 0;
 position: absolute;
 width: 100%;
 display: table;
-background-image: url("C1.jpeg");
+background-image: url("fondos1.jpeg");
 
 }
 
@@ -47,6 +47,7 @@ background-image: url("C1.jpeg");
 
 .titulo{
   background-color: black;
+  opacity: 0.6;
   color: white;
   font-family: 'Secular One', sans-serif;
   font-family: 'IM Fell English SC', serif;
@@ -63,10 +64,14 @@ background-image: url("C1.jpeg");
 }
 
 .ayudaBoson{
+  background-color: black;
+  opacity: 0.6;
   background-position: center;
 }
 
 .institulo{
+  background-color: black;
+  opacity: 0.6;
   color: white;
   font-family: 'Secular One', sans-serif;
   font-family: 'IM Fell English SC', serif;
@@ -76,7 +81,7 @@ background-image: url("C1.jpeg");
 
 .ayuda{
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.6;
   color: white;
   font-family: 'Secular One', sans-serif;
   font-family: 'IM Fell English SC', serif;
@@ -86,6 +91,7 @@ background-image: url("C1.jpeg");
 
 .entitulo{
   background-color: black;
+  opacity: 0.6;
   color: white;
   font-family: 'Secular One', sans-serif;
   font-family: 'IM Fell English SC', serif;
@@ -142,6 +148,7 @@ background-image: url("C1.jpeg");
 
  .iTitulo{
    background-color: black;
+   opacity: 0.6;
    color: white;
    font-family: 'Secular One', sans-serif;
    font-family: 'IM Fell English SC', serif;
@@ -150,6 +157,8 @@ background-image: url("C1.jpeg");
  }
 
  .listaE{
+   background-color: black;
+   opacity: 0.6;
    color: white;
    font-family: 'Secular One', sans-serif;
    font-family: 'IM Fell English SC', serif;
@@ -158,6 +167,8 @@ background-image: url("C1.jpeg");
  }
 
  .nota1{
+   background-color: black;
+   opacity: 0.8;
    color: white;
    font-family: 'Secular One', sans-serif;
    font-family: 'IM Fell English SC', serif;
@@ -188,6 +199,7 @@ background-image: url("C1.jpeg");
 
 .destitulo {
   background-color: black;
+  opacity: 0.6;
   color: white;
   font-family: 'Secular One', sans-serif;
   font-family: 'IM Fell English SC', serif;
