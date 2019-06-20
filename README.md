@@ -12,7 +12,15 @@ Se identifico la necesidad de esta aplicación, ya que, la creadora de esta web 
 
 No se obtuvieron muchos votos, pero podemos ver que de los cuatro investigadores, 3 de ellos probarían la aplicación; Y a un investigador le parece útil la aplicación web, por lo que podía considerarse necesaria en este tipo de usuarios. Tomando en cuenta lo anterior se procedio a la realización del prototipado utilizando la aplicación Marvel.
 
-.
+## Encriptado
+Después se realizó la tabla de organización para el primer spring, donde me enfoque en el entendimiento del DOM y su funcionamiento. Se comenzo con el diseño del html y el css.
+El segundo spring se organizó para comenzar con el código del cifrado. Primero se leyó las teoría de bucles y funciones, después se diseño por escrito el "algoritmo" para el bucle, con esto se comenzaron a realizar las pruebas en el editor de texto Atom. Después de varios errores y mucha investigación se logró obtener el cifrado y el descifrado. Con todo esto se procedio a realizar el testeo, aunque hubo incomvenientes, también se logró hacerlos.
+## Resultados
+Con el testeo se obtuvo en statements,functions, lines, y branches un 100%.
+## Comentarios personales:
+Fue una experiencia intensa, pero gratificante. Realmente sentí que comprendí lo que hice, aunque, me hubiera gustado tener un mejor diseño del CSS y un logo.
+
+
 
 
 
